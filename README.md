@@ -6,3 +6,4 @@ Dataset is periodically updated, and cleaned to remove:
 
 - prompts containing 'score_9' (obviously designed for pony)
 - prompts containing '(())'
+- prompts containing '<lora'

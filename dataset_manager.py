@@ -6,6 +6,7 @@ class DatasetManager:
     filters = [
         lambda e : "score_9" not in e['prompt'],
         lambda e : "((" not in e['prompt'],
+        lambda e : "<lora" not in e['prompt'],
     ]
 
     _instance = None
